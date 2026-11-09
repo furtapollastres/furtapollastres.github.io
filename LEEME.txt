@@ -1,0 +1,12 @@
+BOTONERA DE SONIDOS
+
+Contenido: index.html, manifest.json, sw.js, icon-192.png, icon-512.png
+
+Para instalarla como app en Android:
+1. Descomprime el zip y sube TODOS los archivos a una misma carpeta de un servidor web con HTTPS (por ejemplo, el hosting que ya uses, o GitHub Pages).
+2. Abre la direccion en Chrome en el movil.
+3. Menu (tres puntos) > "Instalar aplicacion" o "Anadir a pantalla de inicio".
+
+Los botones y los sonidos se guardan en el navegador del movil, no en el servidor.
+
+Sin servidor: puedes copiar index.html al movil y abrirlo con Chrome, pero asi funciona como pagina y no se puede instalar, y los datos guardados pueden perderse con mas facilidad.
